@@ -1,7 +1,10 @@
 ![](https://simnalamburt.github.io/bear-rs/cute.png) bear
 ========
 
-A dead-simple test helper for rust.
+Dead-simple test helper for rust. Documentations are [here](//simnalamburt.github.io/bear-rs)
+
+Example
+--------
 
 ```rust
 // tests/test.rs
