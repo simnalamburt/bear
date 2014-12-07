@@ -1,6 +1,6 @@
 [package]
 name          = "bear"
-version       = "0.0.1"
+version       = "0.1.0"
 authors       = ["Hyeon Kim <simnalamburt@gmail.com>"]
 description   = "A dead-simple test helper for rust."
 documentation = "https://simnalamburt.github.io/bear-rs"
