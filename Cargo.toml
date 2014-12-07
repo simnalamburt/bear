@@ -1,4 +1,11 @@
 [package]
-name = "bear"
-version = "0.0.1"
-authors = ["Hyeon Kim <simnalamburt@gmail.com>"]
+name          = "bear"
+version       = "0.0.1"
+authors       = ["Hyeon Kim <simnalamburt@gmail.com>"]
+description   = "A dead-simple test helper for rust."
+documentation = "https://simnalamburt.github.io/bear-rs"
+homepage      = "https://github.com/simnalamburt/bear-rs"
+repository    = "https://github.com/simnalamburt/bear-rs"
+readme        = "README.md"
+keywords      = ["test"]
+license       = "MIT"
