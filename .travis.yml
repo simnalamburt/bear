@@ -4,7 +4,7 @@ os:
   - osx
 notifications:
   irc:
-    nick: bear-rs
+    nick: bear
     channels:
       - irc.uriirc.org:16667#hyeon
     template:

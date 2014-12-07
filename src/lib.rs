@@ -1,7 +1,7 @@
 //! A dead-simple test helper for rust.
 
 #![unstable]
-#![doc(html_root_url = "https://simnalamburt.github.io/bear-rs")]
+#![doc(html_root_url = "https://simnalamburt.github.io/bear")]
 
 #![deny(warnings)]
 #![deny(missing_docs)]
