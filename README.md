@@ -1,4 +1,4 @@
-![](https://simnalamburt.github.io/bear-rs/cute.png) bear
+![][bear] bear [![Cargo version][cargo-i]][cargo-a] [![Build Status][travis-i]][travis-a]
 ========
 
 Dead-simple test helper for rust. Documentations are [here](//simnalamburt.github.io/bear-rs)
@@ -25,3 +25,9 @@ fn do_some_test() {
 --------
 
 MIT License
+
+[bear]: https://simnalamburt.github.io/bear-rs/cute.png
+[cargo-i]: https://img.shields.io/badge/cargo-0.1.0-brightgreen.svg
+[cargo-a]: https://crates.io/crates/bear
+[travis-i]: https://travis-ci.org/simnalamburt/bear-rs.svg?branch=master
+[travis-a]: https://travis-ci.org/simnalamburt/bear-rs
