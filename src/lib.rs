@@ -1,4 +1,19 @@
 //! A dead-simple test helper for rust.
+//!
+//! Example
+//! --------
+//!
+//! ```rust
+//! // tests/test.rs
+//!
+//! #[test]
+//! fn do_some_test() {
+//!     // Get a content of 'tests/fixtures/hello.obj'
+//!     let content: String = fixture("hello.obj");
+//!
+//!     /* Do whatever you want with it */
+//! }
+//! ```
 
 #![unstable]
 #![doc(html_root_url = "https://simnalamburt.github.io/bear")]
