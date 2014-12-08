@@ -10,7 +10,7 @@ Example
 
 ```toml
 [dev-dependencies]
-bear = "^0.1.1"
+bear = "0.1.1"
 ```
 
 ###### tests/test.rs
