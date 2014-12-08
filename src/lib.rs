@@ -16,7 +16,9 @@
 //! ```
 
 #![unstable]
-#![doc(html_root_url = "https://simnalamburt.github.io/bear")]
+#![doc(html_logo_url    = "https://simnalamburt.github.io/bear/cute.png",
+       html_favicon_url = "https://simnalamburt.github.io/bear/cute.png",
+       html_root_url    = "https://simnalamburt.github.io/bear")]
 
 #![deny(warnings)]
 #![deny(missing_docs)]
