@@ -8,4 +8,4 @@ homepage      = "https://github.com/simnalamburt/bear"
 repository    = "https://github.com/simnalamburt/bear"
 readme        = "README.md"
 keywords      = ["test"]
-license       = "MIT"
+license       = "BSD 2-Clause"

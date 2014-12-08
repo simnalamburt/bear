@@ -1,4 +1,4 @@
-![][bear] bear [![Cargo version][cargo-i]][cargo-a] [![Build Status][travis-i]][travis-a]
+![][bear-i] bear [![][version-i]][crates] [![][buildstat-i]][travis]
 ========
 
 Dead-simple test helper for rust. Documentations are [here][docs]
@@ -6,9 +6,16 @@ Dead-simple test helper for rust. Documentations are [here][docs]
 Example
 --------
 
-```rust
-// tests/test.rs
+###### Cargo.toml
 
+```toml
+[dev-dependencies]
+bear = "^0.1.1"
+```
+
+###### tests/test.rs
+
+```rust
 extern crate bear;
 
 use bear::fixture;
@@ -24,11 +31,12 @@ fn do_some_test() {
 
 --------
 
-MIT License
+[BSD 2-Clause](LICENSE.md)
 
-[docs]: https://simnalamburt.github.io/bear
-[bear]: https://simnalamburt.github.io/bear/cute.png
-[cargo-i]: https://img.shields.io/badge/cargo-0.1.1-brightgreen.svg
-[cargo-a]: https://crates.io/crates/bear
-[travis-i]: https://travis-ci.org/simnalamburt/bear.svg?branch=master
-[travis-a]: https://travis-ci.org/simnalamburt/bear
+[docs]:         //simnalamburt.github.io/bear
+[crates]:       //crates.io/crates/bear
+[travis]:       //travis-ci.org/simnalamburt/bear
+
+[bear-i]:       https://simnalamburt.github.io/bear/cute.png
+[version-i]:    https://img.shields.io/badge/cargo-v0.1.1-orange.svg?style=flat
+[buildstat-i]:  https://img.shields.io/travis/simnalamburt/bear/master.svg?style=flat
