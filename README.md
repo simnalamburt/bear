@@ -22,8 +22,8 @@ use bear::fixture;
 
 #[test]
 fn do_some_test() {
-    // Get a content of 'tests/fixtures/hello.obj'
-    let content: String = fixture("hello.obj");
+    // Get a content of 'tests/fixtures/hello.txt'
+    let content: String = fixture("hello.txt");
 
     /* Do whatever you want with it */
 }

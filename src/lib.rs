@@ -4,15 +4,12 @@
 //! --------
 //!
 //! ```rust
-//! // tests/test.rs
+//! use bear::fixture;
 //!
-//! #[test]
-//! fn do_some_test() {
-//!     // Get a content of 'tests/fixtures/hello.obj'
-//!     let content: String = fixture("hello.obj");
+//! // Get a content of 'tests/fixtures/hello.txt'
+//! let content: String = fixture("hello.txt");
 //!
-//!     /* Do whatever you want with it */
-//! }
+//! /* Do whatever you want with it */
 //! ```
 
 #![unstable]
@@ -31,15 +28,12 @@ use std::io::{File, BufferedReader};
 /// --------
 ///
 /// ```rust
-/// // tests/test.rs
+/// use bear::fixture;
 ///
-/// #[test]
-/// fn do_some_test() {
-///     // Get a content of 'tests/fixtures/hello.obj'
-///     let content: String = fixture("hello.obj");
+/// // Get a content of 'tests/fixtures/hello.txt'
+/// let content: String = fixture("hello.txt");
 ///
-///     /* Do whatever you want with it */
-/// }
+/// /* Do whatever you want with it */
 /// ```
 pub fn fixture(filename: &str) -> String {
     let path = Path::new("tests").join("fixtures").join(filename);
