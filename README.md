@@ -23,7 +23,7 @@ use bear::fixture;
 #[test]
 fn do_some_test() {
     // Get a content of 'tests/fixtures/hello.txt'
-    let content: String = fixture("hello.txt");
+    let content = fixture("hello.txt");
 
     /* Do whatever you want with it */
 }
