@@ -10,7 +10,7 @@ Example
 
 ```toml
 [dev-dependencies]
-bear = "0.1.1"
+bear = "*"
 ```
 
 ###### tests/test.rs
@@ -38,5 +38,5 @@ fn do_some_test() {
 [travis]:       //travis-ci.org/simnalamburt/bear
 
 [bear-i]:       https://simnalamburt.github.io/bear/cute.png
-[version-i]:    https://img.shields.io/badge/cargo-v0.1.1-orange.svg?style=flat
+[version-i]:    https://img.shields.io/badge/cargo-v0.2.0-orange.svg?style=flat
 [buildstat-i]:  https://img.shields.io/travis/simnalamburt/bear/master.svg?style=flat
