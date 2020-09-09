@@ -1,21 +1,17 @@
-![][bear-i] bear [![][version-i]][crates] [![][buildstat-i]][travis]
+![bear-i] bear [![version-i]][crates] [![buildstat-i]][travis]
 ========
 
-Dead-simple test helper for rust. Documentations are [here][docs]
+Dead-simple test helper for rust. See **[documentation]** for the further
+details.
 
-Example
---------
-
-###### Cargo.toml
-
+### Example
 ```toml
+# Cargo.toml
 [dev-dependencies]
-bear = "*"
+bear = "0.2"
 ```
-
-###### tests/test.rs
-
 ```rust
+// tests/test.rs
 extern crate bear;
 
 use bear::fixture;
@@ -25,18 +21,20 @@ fn do_some_test() {
     // Get a content of 'tests/fixtures/hello.txt'
     let content = fixture("hello.txt");
 
-    /* Do whatever you want with it */
+    // Do whatever you want with it
 }
 ```
+
+&nbsp;
 
 --------
 
 [BSD 2-Clause](LICENSE.md)
 
-[docs]:         //simnalamburt.github.io/bear
-[crates]:       //crates.io/crates/bear
-[travis]:       //travis-ci.org/simnalamburt/bear
+[documentation]: https://docs.rs/crate/bear/
+[crates]: https//crates.io/crates/bear
+[travis]: https://travis-ci.com/simnalamburt/bear
 
-[bear-i]:       https://simnalamburt.github.io/bear/cute.png
-[version-i]:    https://img.shields.io/badge/cargo-v0.2.0-orange.svg?style=flat
-[buildstat-i]:  https://img.shields.io/travis/simnalamburt/bear/master.svg?style=flat
+[bear-i]: https://raw.githubusercontent.com/simnalamburt/i/master/bear/cute.png
+[version-i]: https://badgen.net/crates/v/bear
+[buildstat-i]: https://badgen.net/travis/simnalamburt/bear
