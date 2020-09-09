@@ -1,4 +1,4 @@
-![bear-i] bear [![version-i]][crates] [![buildstat-i]][travis]
+![bear-i] bear [![version-i]][crates]
 ========
 
 Dead-simple test helper for rust. See **[documentation]** for the further
@@ -33,8 +33,6 @@ fn do_some_test() {
 
 [documentation]: https://docs.rs/crate/bear/
 [crates]: https//crates.io/crates/bear
-[travis]: https://travis-ci.com/simnalamburt/bear
 
 [bear-i]: https://raw.githubusercontent.com/simnalamburt/i/master/bear/cute.png
 [version-i]: https://badgen.net/crates/v/bear
-[buildstat-i]: https://badgen.net/travis/simnalamburt/bear
