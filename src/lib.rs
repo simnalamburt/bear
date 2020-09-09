@@ -12,14 +12,16 @@
 //! // Do whatever you want with it
 //! ```
 
-#![doc(html_logo_url    = "https://simnalamburt.github.io/bear/cute.png",
-       html_favicon_url = "https://simnalamburt.github.io/bear/cute.png",
-       html_root_url    = "https://simnalamburt.github.io/bear")]
+#![doc(
+    html_logo_url = "https://simnalamburt.github.io/bear/cute.png",
+    html_favicon_url = "https://simnalamburt.github.io/bear/cute.png",
+    html_root_url = "https://simnalamburt.github.io/bear"
+)]
 
-use std::path::Path;
 use std::fs::File;
-use std::io::BufReader;
 use std::io::prelude::*;
+use std::io::BufReader;
+use std::path::Path;
 
 /// Open a file from the 'tests/fixtures' directory, and return its content as a `String`
 ///
