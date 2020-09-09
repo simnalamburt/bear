@@ -14,3 +14,7 @@ homepage = "https://github.com/simnalamburt/bear"
 repository = "https://github.com/simnalamburt/bear"
 license = "BSD-2-Clause"
 keywords = ["test"]
+# categories
+
+[badges]
+maintenance = { status = "passively-maintained" }
