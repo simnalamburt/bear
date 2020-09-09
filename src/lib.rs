@@ -9,16 +9,12 @@
 //! // Get a content of 'tests/fixtures/hello.txt'
 //! let content = fixture("hello.txt");
 //!
-//! /* Do whatever you want with it */
+//! // Do whatever you want with it
 //! ```
 
-#![unstable]
 #![doc(html_logo_url    = "https://simnalamburt.github.io/bear/cute.png",
        html_favicon_url = "https://simnalamburt.github.io/bear/cute.png",
        html_root_url    = "https://simnalamburt.github.io/bear")]
-
-#![feature(path, fs, io)]
-#![deny(warnings, missing_docs)]
 
 use std::path::Path;
 use std::fs::File;
