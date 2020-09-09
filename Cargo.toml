@@ -1,11 +1,16 @@
 [package]
-name          = "bear"
-version       = "0.2.0"
-authors       = ["Hyeon Kim <simnalamburt@gmail.com>"]
-description   = "A dead-simple test helper for rust."
+name = "bear"
+version = "0.2.0"
+authors = ["Hyeon Kim <simnalamburt@gmail.com>"]
+edition = "2018"
+
+description = """
+A dead-simple test helper for rust.
+"""
+
 documentation = "https://docs.rs/crate/bear/"
-homepage      = "https://github.com/simnalamburt/bear"
-repository    = "https://github.com/simnalamburt/bear"
-readme        = "README.md"
-keywords      = ["test"]
-license       = "BSD-2-Clause"
+readme = "README.md"
+homepage = "https://github.com/simnalamburt/bear"
+repository = "https://github.com/simnalamburt/bear"
+license = "BSD-2-Clause"
+keywords = ["test"]
