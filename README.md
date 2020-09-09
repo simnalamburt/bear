@@ -32,7 +32,7 @@ fn do_some_test() {
 [BSD 2-Clause](LICENSE.md)
 
 [documentation]: https://docs.rs/crate/bear/
-[crates]: https//crates.io/crates/bear
+[crates]: https://crates.io/crates/bear
 
 [bear-i]: https://raw.githubusercontent.com/simnalamburt/i/master/bear/cute.png
 [version-i]: https://badgen.net/crates/v/bear
