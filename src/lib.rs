@@ -14,7 +14,7 @@
 
 #![doc(
     html_logo_url = "https://raw.githubusercontent.com/simnalamburt/i/master/bear/cute.png",
-    html_favicon_url = "https://raw.githubusercontent.com/simnalamburt/i/master/bear/cute.png",
+    html_favicon_url = "https://raw.githubusercontent.com/simnalamburt/i/master/bear/cute.png"
 )]
 
 use std::fs::File;
